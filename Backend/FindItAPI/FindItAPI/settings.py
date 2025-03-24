@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'FindItAPI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ziad', 
+        'NAME': 'find_it', 
         'PASSWORD': 'ziadkh5899',
         'HOST': 'localhost',
         'PORT': '5432'
