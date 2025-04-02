@@ -14,7 +14,7 @@ class Item(models.Model):
     ]
 
     user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
-    item_type = models.CharField(unique=True, max_length=100, choices=ITEM_TYPE_CHOICES)
+    item_type = models.CharField(max_length=100, choices=ITEM_TYPE_CHOICES)
     title = models.CharField(max_length=255)
     description = models.TextField()
     date_time_reported = models.DateTimeField(auto_now_add=True)

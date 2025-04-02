@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'users.apps.UsersConfig',
     'items.apps.ItemsConfig',
+    'basic_matching.apps.BasicMatchingConfig',
 ]
 
 MIDDLEWARE = [
